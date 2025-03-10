@@ -1,0 +1,43 @@
+# espanso match file
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/
+matches:
+  - trigger: ",,lorem"
+    replace: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+  - trigger: ",,today"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y/%m/%d %H:%M "
+
+  - trigger: ",,day"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y/%m/%d "
+
+  - trigger: ",,now"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%H:%M "
+
+  - trigger: ",,apk"
+    replace: "apk pro premium paid"
+
+  - trigger: ",,1 "
+    replace: "●  "
+
+  - trigger: ",,2 "
+    replace: "◉  "
+
+  - trigger: ",,3 "
+    replace: "▣  "
+
