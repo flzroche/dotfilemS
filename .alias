@@ -36,6 +36,7 @@ alias pbcopy='xclip -selection clipboard'
 #####Wikipedia検索
 #alias wiki='python3 ~/scripts/wiki.py wikipediaSearch '
 alias wk='python3 /Users/roche/scripts/w.py'
+alias wiki='wk wS'
 
 #git
 alias g='git'
