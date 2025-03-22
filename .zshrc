@@ -19,9 +19,13 @@ export GITDIR="$HOME/gD"
 
 source ~/dotfilem/.alias
 # source "$GITDIR/antigen/antigen.zsh"
+
 ### Arc Browserが開かれている場合にタブに検索結果を表示する
 source ~/scripts/webSearch.zsh
 
 setopt AUTO_CD
+
+# zstyle ':completion:*' menu yes select
+autoload -U compinit
 
 eval "$(starship init zsh)"

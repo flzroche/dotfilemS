@@ -4,7 +4,19 @@ Starshipを使用したMacOSターミナル。
 Shellはzsh.
 
 なお、ディレクトリ名は **dotfilem** とする。
-dotfilems とかにはしない。
+dotfilemS とかにはしない。
+
+# Requirements
+- espanso
+- alacritty
+- zsh
+- ./insZshPlugins.sh ←実行する
+- tmux
+- starship
+- Helix(hx) Editor
+
+上記アプリケーションを全てインストールすること。
+
 
 ## Symbolic Link List
 
@@ -50,3 +62,4 @@ ex.
 
 
 Espansoはクロスプラットフォームであるので、ConfigファイルはWindows, Linuxでも使用可能である。
+

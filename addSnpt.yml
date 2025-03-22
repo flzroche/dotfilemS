@@ -41,3 +41,94 @@ matches:
   - trigger: ",,3 "
     replace: "▣  "
 
+
+## ..
+  - trigger: "..amateru"
+    replace: "160.251.213.40"
+
+  - trigger: "..kodakara"
+    replace: "160.251.233.231"
+
+  - trigger: ".. " 
+    replace: "cd $HOME"
+
+  - trigger: "..monokai"
+    replace: "/* monokai-colors */
+\n--mcolor-black: #272822;
+\n--mcolor-white: #F8F8F2;
+\n--mcolor-red: #F92672;
+\n--mcolor-orange: #FD971F;
+\n--mcolor-yellow: #E6DB74;
+\n--mcolor-green: #A6E22E;
+\n--mcolor-purple: #AE81FF;\n"
+
+## // means...URL, SearchWord etc.
+  - trigger: "//koda"
+    replace: "kodakarasatoimo.org"
+
+  - trigger: "//amat"
+    replace: "amateru.org"
+
+  - trigger: "//amaz"
+    replace: "amazon.co.jp"
+
+  - trigger: "//goog"
+    replace: "google.com"
+
+  - trigger: "//pint"
+    replace: "jp.pinterest.com"
+
+## xxxcmd means FIX.
+  - trigger: "echo"
+    replace: "echo -e "
+
+  - trigger: "tmuxat"
+    replace: "tmux a -t "
+
+  - trigger: "tmuxks"
+    replace: "tmux kill-session -t "
+
+  - trigger: "tmuxkill"
+    replace: "tmux kill-server"
+
+## ! means Personal Infomation.
+  - trigger: "!fp"
+    replace: "flunit@protonmail.com"
+
+  - trigger: "!flz"
+    replace: "flzroche@gmail.com"
+
+  - trigger: "!amb"
+    replace: "ambition.five@gmail.com"
+
+  - trigger: "!tel"
+    replace: "09029100408"
+
+  - trigger: "!ouj"
+    replace: "2410011270@campus.ouj.ac.jp"
+
+  - trigger: "!au"
+    replace: "5166452408366880"
+
+  - trigger: "!prime"
+    replace: "5334912306976558"
+
+  - trigger: "!yamai"
+    replace: "y.amai@ymail.ne.jp"
+
+  - trigger: "!ymail"
+    replace: "y.amai@ymail.ne.jp"
+
+  - trigger: "!kodakara"
+    replace: "kodakarasatoimo@gmail.com"
+
+
+  - trigger: "!cright"
+    replace: "=+=+=+=+=+=+=\n
+Copyright © Roche Flunit-La Zepam 2023-2024.\n
+Any reproduction, public performance, alteration, distribution, or other use of this work is prohibited except for private use.\n
+\n
+Description for Japanese\n
+© Roche Flunit-La Zepam 2023-2024\n
+この楽曲は、私的利用の範囲を超えての複製、公衆への送信、改変、転載等を禁止します。"
+
