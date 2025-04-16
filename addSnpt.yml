@@ -32,14 +32,14 @@ matches:
   - trigger: ",,apk"
     replace: "apk pro premium paid"
 
-  - trigger: ",,1 "
-    replace: "●  "
-
-  - trigger: ",,2 "
-    replace: "◉  "
-
-  - trigger: ",,3 "
-    replace: "▣  "
+  - trigger: ",,cr"
+    replace: "=+=+=+=+=+=+=\n
+Copyright © Roche Flunit-La Zepam 2023-2024.\n
+Any reproduction, public performance, alteration, distribution, or other use of this work is prohibited except for private use.\n
+\n
+Description for Japanese\n
+© Roche Flunit-La Zepam 2023-2024\n
+この楽曲は、私的利用の範囲を超えての複製、公衆への送信、改変、転載等を禁止します。"
 
 
 ## ..
@@ -78,18 +78,22 @@ matches:
   - trigger: "//pint"
     replace: "jp.pinterest.com"
 
+## - means symbol. ♀♂✔️ 
+  - trigger: "-1 "
+    replace: "● "
+
+  - trigger: "-2 "
+    replace: "◉ "
+
+  - trigger: "-3 "
+    replace: "■ "
+
 ## xxxcmd means FIX.
   - trigger: "echo"
     replace: "echo -e "
 
-  - trigger: "tmuxat"
-    replace: "tmux a -t "
-
-  - trigger: "tmuxks"
-    replace: "tmux kill-session -t "
-
-  - trigger: "tmuxkill"
-    replace: "tmux kill-server"
+  - trigger: "#!/"
+    replace: "#!/usr/bin/env bash"
 
 ## ! means Personal Infomation.
   - trigger: "!fp"
@@ -101,14 +105,23 @@ matches:
   - trigger: "!amb"
     replace: "ambition.five@gmail.com"
 
-  - trigger: "!tel"
-    replace: "09029100408"
+  - trigger: "!g.r"
+    replace: "g.ritsuaki@gmail.com"
 
   - trigger: "!ouj"
     replace: "2410011270@campus.ouj.ac.jp"
 
+  - trigger: "!tel1"
+    replace: "09029100408"
+
+  - trigger: "!tel2"
+    replace: "09082484165"
+
   - trigger: "!au"
     replace: "5166452408366880"
+
+  - trigger: "!jp"
+    replace: "4708910151825988"
 
   - trigger: "!prime"
     replace: "5334912306976558"
@@ -116,19 +129,10 @@ matches:
   - trigger: "!yamai"
     replace: "y.amai@ymail.ne.jp"
 
-  - trigger: "!ymail"
+  - trigger: "!y.mail"
     replace: "y.amai@ymail.ne.jp"
 
   - trigger: "!kodakara"
     replace: "kodakarasatoimo@gmail.com"
 
-
-  - trigger: "!cright"
-    replace: "=+=+=+=+=+=+=\n
-Copyright © Roche Flunit-La Zepam 2023-2024.\n
-Any reproduction, public performance, alteration, distribution, or other use of this work is prohibited except for private use.\n
-\n
-Description for Japanese\n
-© Roche Flunit-La Zepam 2023-2024\n
-この楽曲は、私的利用の範囲を超えての複製、公衆への送信、改変、転載等を禁止します。"
 

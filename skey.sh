@@ -13,7 +13,7 @@ exis=0
 if [ -f /opt/homebrew/bin/bat ];then
   ex=1
   exis=1
-  bat $HOME/dotfilem/SKEY
+  bat $HOME/dotfilem/cf.skey
 else
   echo "EXIS=$EXIS"
   echo -e "\n  bat コマンドをインストールしますか？(y/n)"
@@ -22,7 +22,7 @@ else
     brew install bat
     echo -e "\n bat をインストールしました。"
   else
-    cat $HOME/dotfilem/SKEY
+    cat $HOME/dotfilem/cf.skey
   fi
 fi
 

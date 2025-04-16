@@ -33,10 +33,19 @@ alias dkdown='docker compose down --rmi all -v'
 alias dkup='docker compose up -d'
 alias pbcopy='xclip -selection clipboard'
 
+##### Tmux
+alias tx='tmux'
+alias txls='tmux ls'
+alias txki="tmux kill-server"
+alias txks="tmux kill-session -t "
+
 #####Wikipedia検索
 #alias wiki='python3 ~/scripts/wiki.py wikipediaSearch '
 alias wk='python3 /Users/roche/scripts/w.py'
 alias wiki='wk wS'
+
+##### ShortCutkey表示
+alias skey='bat ~/dotfilem/cf.skey'
 
 #git
 alias g='git'
